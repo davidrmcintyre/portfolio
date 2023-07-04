@@ -1,0 +1,24 @@
+.home-text {
+    margin-top: 35%;
+}
+
+.profile-image {
+    border-radius: 50%;
+    margin-top: 10%;
+    border: #000 solid 1px;
+}
+
+.custom-container {
+    overflow-y: scroll;
+}
+
+.project-border {
+    border: 1px solid #000;
+}
+
+
+@media (min-width: 400px) and (max-width: 650px)  {
+    .home-text, .profile-image {
+        margin-top: 0;
+    }
+}
