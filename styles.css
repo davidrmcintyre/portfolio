@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  background-color: #f8f8f8;
+}
+
+#home {
+  height: 100vh;
+}
+
+#about {
+  padding: 15px;
+}
+
+#projects {
+  padding: 25px;
+}
+
+.container {
+  margin-bottom: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    width: 100vw;
+    z-index: 1000;
+  }
+
+.navbar-toggler {
+    border: none;
+}
+
+a, h1, h2, h3, h4, h5, h6, p, button, label, input, textarea {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h5 {
+  text-align: center;
+}
+
+p {
+  font-weight: 400;
+  text-align: center;
+}
+
+.home-text {
+  margin-top: 35%;
+}
+
+.profile-image {
+    border-radius: 50%;
+    margin-top: 15%;
+    border: #000 solid 1px;
+}
+
+.project-border {
+    border: 1px solid #000;
+}
+
+.chat-img{
+    max-width: 24%;
+}
+
+.case-img {
+  max-width: 100%;
+}
+
+.postman-img {
+  max-width: 100%;
+  margin-top: 2%;
+}
+
+.icon {
+  max-width: 100%;
+}
+
+.express {
+  position: relative;
+  top: 30%;
+}
+
+.img {
+  max-width: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.social-container {
+  text-align: center;
+}
+
+.case-study {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.impressum, .impressum:hover {
+  color: #000;
+  text-align: center;
+}
+
+.form-buttons {
+  text-align: center;
+}
+
+
+@media (min-width: 300px) and (max-width: 700px)  {
+    .home-text {
+        margin-top: 0;
+    }
+    .profile-image {
+      margin-top: 4%;
+    }
+    .navbar-brand,
+    .navbar-nav, .nav-link {
+      font-size: 12px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 370px) {
+    .btn-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .btn-container a {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+

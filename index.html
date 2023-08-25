@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David McIntyre</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+   <!-- Navbar -->
+
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand text-sm" href="index.html">David McIntyre | Web Developer</a>
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+          </li>
+      </ul>
+    </div>
+    </nav>
+
+    <main> 
+      <!-- Home Section -->
+
+  <section class="container" id="home">
+    <div class="text-center">
+       <div class="row">
+        <div class="col-md-6 m-1">
+          <img src="img/profile-photo-2-2.jpg" alt="Profile Picture" class="img-fluid w-75 profile-image">
+        </div>
+          <div class="col-md-5 m-1">
+              <h1 class="p-2 home-text">Hi! I'm David</h1>
+              <p class="mt-1">I am a Full Stack Web Developer. <br>
+                I like to use MongoDb, Express, React, and Node.js. <br>
+                I believe a day not spent learning is a day wasted. <br>
+                I'm always open to new technologies and ways of thinking.
+              </p>
+          </div>
+      </div>
+    </div>     
+</section>
+
+<!-- About Me Section-->
+
+<section class="container mt-3" id="about">
+  <h2 class="text-center p-3">About Me</h2>
+  <div class="row">
+      <div class="col-sm-10 col-md-4 mx-auto">
+      <p class="text-muted">"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it."</p>
+      <p>- Patrick McKenzie</p>
+      </div>
+      <div class="col-sm-10 col-md-4 mx-auto">
+          <p>From a young age I have always been curious about technology. After working for 10 years in the hospitality industry I decided I needed a break. At this time I realised that I wanted to challenge myself in a way I had never done before. I wanted to learn how to code.</p>
+      </div>
+      <div class="col-sm-10 col-md-4 mx-auto">
+          <p>Now with a strong foundation in HTML, CSS, Javascript, MongoDB, Express.js, React.js and Node.js I believe I now have the skills to have a successful career in the field of Web Development.</p>
+      </div>
+  </div>
+      <h4 class="text-center m-3">My Skills</h4>
+  <div class="row m-1 mt-4">
+      <div class="col-md-4">
+        <h5>Frontend:</h5>
+        <p>HTML<br>CSS<br>JavaScript<br>React<br>Redux<br>React Native<br>jQuery<br>Bootstrap<br>Responsive Design<br>Angular<br></p>
+      </div>
+      <div class="col-md-4">
+        <h5>Backend:</h5>
+        <p>Node.js<br>Express<br>OAuth<br>Mongoose<br>Bcrypt<br>Passport<br>JWT Authentication<br>REST API</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Database/Tools:</h5>
+        <p>MongoDb<br>PostgreSQL<br>Firebase<br>Jest<br>Postman<br>Firestore<br>Git<br>VS Code<br>Heroku<br>Netlify<br>Photoshop</p>
+      </div>
+  </div>
+</section>
+
+<!-- Projects Section-->
+
+<section class="container" id="projects">
+  <h2 class="text-center">My Projects</h2>
+  <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-4 project-border">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="img/PokedexAppImages/Desktop-interface copy.jpg" class="card-img-top"
+                      alt="Pokemon Javascript App">
+              </div>
+          </div>
+          <div class="card-body text-center">
+              <h5 class="card-title">Javascript Pokedex App</h5>
+              <p class="card-text text-muted">A web application using HTML, CSS and JavaScript that loads data from an
+                  external API and enables the viewing of data points in detail by displaying a list of pokemon as
+                  buttons, which when clicked will display a picture of the pokemon as well as information
+                  including: name, height, types and abilities within a modal.</p>
+              <a href="https://github.com/davidrmcintyre/Javascript-Pokedex-App/"
+                  target="_blank" class="btn btn-dark m-1">Github</a>
+              <a href="https://davidrmcintyre.github.io/Javascript-Pokedex-App/" target="_blank"
+                  class="btn btn-dark m-1">Visit</a>
+          </div>
+      </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-4 project-border">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="img/RoadMovieCinephilesImages/Screenshot 2023-06-27 at 13.34.39.jpg"
+                      class="card-img-top" alt="React App">
+              </div>
+          </div>
+          <div class="card-body text-center">
+              <h5 class="card-title">React My Flix App</h5>
+              <p class="card-text text-muted">This is an application built using the MERN stack that allows users to sign-up,
+                  login, browse and interact with a collection of movies. Users can search for movies, view a movies
+                  details (description, genre, director, year), add movies to their favorites, and discover similar
+                  movies.
+              </p>
+              <a href="https://github.com/davidrmcintyre/myFlix-client" class="btn btn-dark m-1"
+                  target="_blank">Github</a>
+              <a href="https://roadmoviecinephiles.netlify.app/" class="btn btn-dark m-1"
+                  target="_blank">Visit</a>
+              <a href="./case-studies/myFlixReactCase.html" class="btn btn-dark m-1">Case Study</a>
+          </div>
+      </div>
+      
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-4 project-border">
+          <img src="img/CityCrawlerImages/Screenshot 2023-06-29 at 11.08.10-2.jpg" class="card-img-top" alt="React Meet App Slide 1">
+          <div class="card-body text-center">
+              <h5 class="card-title">City Crawler Meet App</h5>
+              <p class="card-text text-muted">A React application that loads data from the Google Calendar API and uses OAuth
+                  authorization, in collaboration with AWS Lambda functions. Users can then view responsive charts,
+                  which display the numbers of events in a range of cities, can choose a specific city, a specific
+                  number of events, and also view details of a chosen event.</p>
+              <a href="https://github.com/davidrmcintyre/meet-app" target="_blank" class="btn btn-dark m-1">Github</a>
+              <a href="https://davidrmcintyre.github.io/meet-app/" target="_blank" class="btn btn-dark m-1">Visit</a>
+          </div>
+      </div>      
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-4 project-border">
+            <div class="d-flex justify-content-center align-items-center">
+                <img src="img/chat-app-img/Screenshot_20230717_141042_Expo Go.jpg" class="card-img-top chat-img"
+                    alt="React Native Chat App">
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title">React Native Chat App</h5>
+                <p class="card-text text-muted">This project is a chat application built with React Native and Firebase. It includes features such as user authentication, real-time messaging, image sharing, and location sharing. The application allows users to sign in anonymously, choose a username and background color, and engage in real-time chat conversations.</p>
+                <a href="https://github.com/davidrmcintyre/chat-app" target="_blank" class="btn btn-dark m-1">Github</a>
+            </div>
+        </div>
+    </div>    
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+        <div class="card mb-4 project-border">
+            <img src="img/myFlixAngular/sign-up-view.jpg" class="card-img-top" alt="MyFlix Angular App">
+            <div class="card-body text-center">
+                <h5 class="card-title">Angular My Flix App</h5>
+                <p class="card-text text-muted">Using MongoDB, Express.js, and Node.js on the backend and Angular for the frontend, this app allows users to view a selection of movies, view movie details (description, genre, director), and add movies to their list of favorites.</p>
+                <a href="https://github.com/davidrmcintyre/myFlix-Angular-client" target="_blank" class="btn btn-dark m-1">Github</a>
+                <a href="https://davidrmcintyre.github.io/myFlix-Angular-app/welcome" target="_blank" class="btn btn-dark m-1">Visit</a>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+
+  <section class="container mt-4 mx-auto" id="contact">
+    <div>
+      <h2 class="text-center">Contact Me</h2>
+    </div>
+    <div class="row mx-auto">
+      <div class="col">
+        <p>You can contact me via the following form or the buttoms below.</p>
+      </div>
+    </div>
+    <div class="row mx-auto">
+      <div class="col text center mx-auto">
+        <form action="https://formsubmit.co/davidrobert.mcintyre@gmail.com" method="POST" class="mx-auto text-center" >
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <div class="col text-center mt-1 mb-1">
+          <textarea placeholder="Your message here" required></textarea>
+        </div>
+        <button class="btn btn-dark mb-1" type="submit">Submit</button>
+          </form>
+
+
+        
+      </div>
+    </div>
+    <div class="btn-container text-center mx-auto">
+      <a href="files/david-mcintyre-cv.pdf" class="btn btn-dark" download>Download My CV</a><span> or </span> 
+    <a href="mailto:davidrobert.mcintyre@gmail.com" class="btn btn-dark text">Send Me an Email</a> 
+    </div>
+  </section>
+</main>
+  
+  <!-- Footer -->
+
+<footer>
+  <div class="social-container m-1">
+    <div>
+      <a href="https://twitter.com/davidrobertmci" target="_blank"><img src="img/logo-black.png" alt="X logo" class="img"> </a>
+      <a href="https://medium.com/@davidrobert.mcintyre" target="_blank"><img src="img/Medium-Symbol-Black-RGB@4x.png" alt="medium logo" class="img"> </a>
+      <a href="https://www.linkedin.com/in/davidrobertmcintyre/" target="_blank"><img src="img/5305157_connection_linkedin_network_linkedin_logo_icon copy.svg" alt="LinkedIn logo" class="img"> </a>
+      <a href="https://github.com/davidrmcintyre" target="_blank"><img src="img/211904_social_github_icon copy.svg" alt="Github logo" class="img"> </a>
+  </div>
+</div>
+  <div class="row">
+    <div class="text-center mt-1 col">
+      <a href="impressum.html" class="impressum">Impressum</a>
+    </div>
+  </div>
+</footer>
+
+ 
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Custom JS -->
+<script src="scripts.js"></script>
+</body>
+</html>
