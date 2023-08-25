@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="../styles.css">
+        <title>myFlix Case Study</title>
+    </head>
+    <body class="custom-container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand text-sm" href="https://github.com/davidrmcintyre">David McIntyre | Web Developer</a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../work.html">Back to my Projects</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="case-study container mt-4 custom-container text-center">
+            <div class="row">
+                <div class="case-start col mb-2">
+                    <h2>Case study for <span class="btn btn-dark"><a href="https://roadmoviecinephiles.netlify.app/" target="_blank">React My FLix App</a></span> full stack project</h2>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <h3>
+                            Overview
+                        </h3>
+                        <p>
+                            The myFlix web app, named "Road Movie Cinephiles", is developed using the MERN stack. 
+                            It provides users information about movies, such as about the movies plot, director and genre.
+                            Users can create an account, update their own personal data and create a list of favourite movies from the list provided.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="../img/RoadMovieCinephilesImages/home.jpg" class="case-img rounded">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h3>Purpose & Context</h3>
+                    <p>The myFLix project is a personal project I created as a part of my Full-Stack Web Development course with CareerFoundry to demonstrate my skills in full-stack development using the MERN stack.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Objectives</h3>
+                    <p>The aim of this project was to build a fully functioning full-stack web application to add to my professional portfolio.
+                        In order to achieve this I had to build both the server-side and the client-side from scratch.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <h3>Server-Side Approach</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                    My approach to the server side of this project was to create a RESTful API, using Node.js and Express,
+                    which interacts with a non-relational database, MongoDB. The API is accessed by the methods of GET, POST, PUT, and DELETE.
+                    The API provides these endpoints in a JSON format. To test the API, I used Postman, an API platform for the building and use of API's.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="../img/case-images/postman.jpg" class="postman-img">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../img/case-images/MongoDB.jpg" class="case-img mt-4">
+                </div>
+                <div class="col-md-6 mt-4">
+                    <p>
+                        The backend environment of the project is further complimented by relevant libraries such as; Mongoose, which creates the connection between Node.js and MongoDB.
+                        As well as other essential middleware such as; body-parser, morgan and passport being implemented.
+                        This allows for user authentication and authorisation to be configured. JSON Web Tokens are used to manage user sessions securely.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 text-center mt-5">
+                    <h3>Client-Side Approach</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    The client-side of the project utilises React to create a single page, responsive, web application.
+                    Alongside it's state management library Redux, which helps maintain the state of the app across the multiple components.
+                    These components or interfaces include; a MainView (showing a list of movies), a MovieView (showing information about an individual movie),
+                    a LoginView, a SignupView, and a ProfileView (allowing users to update their data and create a favourites list).
+                </div>
+                <div class="col-md-6">
+                    <img src="../img/case-images/movie-view.jpg" class="case-img mt-2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto mt-5">
+                    <h3>Challenges</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <p>
+                        This project presented many challenges, as it was my first project in which I was using the terminal, as well as dealing with both the server-side
+                        and client-side of a project. It served as a great introduction to database structures, and how the server-side and client-side
+                        interact. Although it was difficult to grasp at first, with the help of my tutor and mentor I managed to overcome the obstacles 
+                        I faced and present the completed project.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 mx-auto">
+                    <h3>Duration</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    This project consisted of two achievements in the Career Foundry course, and therefore was immediately the longest. 
+                    Given that it concerned both server-side and client-side it took me a while to really understand what was going on between the two.
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 mx-auto">
+                    <h3>Credits</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <p>Lead Developer: David McIntyre<br>
+                    Tutor: Andrew Magdy Gad <br>
+                    Mentor: Faizal Patal</p>
+                </div>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
